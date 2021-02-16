@@ -1,0 +1,170 @@
+body {
+  background: #56f1ef;
+  background: radial-gradient(circle, #56f1ef 0%, #60a9c3 35%, #0f799e 100%); }
+
+.logo {
+  display: inline-block;
+  align-content: center;
+  opacity: .8;
+  margin-bottom: 50px; }
+
+.videos {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border: 1px solid blue;
+  width: 530px;
+  display: inline-block;
+  height: 300px;
+  overflow: hidden; }
+  .videos #uno {
+    background-color: blue; }
+  .videos #dos {
+    background-color: green; }
+  .videos #tres {
+    background-color: yellow; }
+  .videos #cuatro {
+    background-color: red; }
+
+.imagenesTiendas {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transform: scale(1, 1); }
+
+.logoPublicidad {
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+  opacity: .7; }
+
+@keyframes roll {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+
+.promociones {
+  margin-top: 35px; }
+
+.formularioVuelos {
+  color: beige;
+  margin-top: 50px; }
+
+.seleccionOrigen {
+  margin-top: 35px; }
+
+.seleccionDestino {
+  margin-top: 35px; }
+
+.fechas {
+  margin-top: 50px; }
+
+.slider-wrapper {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  padding: 0; }
+
+.colDerecha {
+  margin-top: 100px;
+  margin-left: 50px; }
+
+.email {
+  color: beige; }
+
+.passsword {
+  color: beige; }
+
+.form-check-label {
+  color: beige; }
+
+.textoVariado {
+  color: beige;
+  text-align: center; }
+
+.subtitulo {
+  color: beige;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.nav-link {
+  color: black; }
+
+.paginas {
+  color: black;
+  margin-top: 35px;
+  margin-left: 250px;
+  margin-bottom: 250px; }
+  .paginas .paginas_externas {
+    padding-top: 150px;
+    padding-bottom: 150px; }
+  .paginas .paginas__lista {
+    display: block;
+    list-style-type: circle;
+    margin-top: 50px; }
+  .paginas .pagina__externa1 {
+    color: black;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 25px; }
+  .paginas .pagina__externa2 {
+    color: black;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 25px; }
+  .paginas .pagina__externa3 {
+    color: black;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 25px; }
+
+.side {
+  display: flex;
+  height: 500px; }
+  .side .side__publicidad {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end; }
+  .side .side__imagen {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px; }
+
+.contacto-info {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: .9rem; }
+  .contacto-info .contacto-info__titulo {
+    font-size: 2rem;
+    font-weight: 600; }
+  .contacto-info .contacto-info__paragrap {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; }
+
+.contacto-form__header .contacto-form__title {
+  font-size: 2rem;
+  font-weight: 600; }
+
+.contacto-form__header .contacto-form__paragraph {
+  line-height: 1.7;
+  opacity: .9; }
+
+.contacto-form__header .contacto-info__titulo-2 {
+  font-weight: 600; }
+
+.contacto-form__header .contacto-info__item {
+  opacity: .9; }
+
+.contacto-form__data .contacto-form__input {
+  color: #0a1f44;
+  font-size: .87rem;
+  padding: .87rem 1.4rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.01);
+  width: 100%;
+  margin-bottom: .87rem; }

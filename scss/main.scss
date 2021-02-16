@@ -1,0 +1,160 @@
+@import "variables";
+@import "header";
+@import "grupos";
+
+
+.nosotros{
+
+    
+    padding-top: 61px;
+    margin-top: 37px;
+    margin-right: $margenDerecho;
+
+    .nosotros_logo{
+        -webkit-transform: translateY(-6px);
+        -moz-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        -o-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+
+
+    .nosotros__parrafo-titulo{
+        margin-top: 10px;
+        @extend %valorTituloH3;
+        font-weight: 800;
+    }
+
+    .nosotros__parrafo-texto{
+
+        @extend %valorParrafos;
+    }
+}
+
+.about_content
+{
+	padding-top: 93px;
+}
+
+.about_content
+	{
+		padding-top: 61px;
+		margin-top: 37px;
+	}
+
+.about_logo
+{
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.about_logo a
+{
+	color: #2e2e2e;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.about_social_list
+{
+	margin-top: 40px;
+}
+
+.about_social_item
+{
+	display: inline-block;
+	width: 47px;
+	height: 47px;
+	border: solid 2px #fa9e1b;
+	border-radius: 50%;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	margin-right: 15px;
+}
+
+.about_social_item:last-child
+{
+	margin-right: 0px;
+}
+.about_social_item a
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.about_social_item a i
+{
+	display: block;
+	position: relative;
+	color: #fa9e1b;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 20px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.about_social_item:hover
+{
+	background: #fa9e1b;
+}
+.about_social_item:hover a i
+{
+	color: #FFFFFF;
+}
+
+.logo_container
+{
+	-webkit-transform: translateY(-6px);
+	-moz-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	-o-transform: translateY(-6px);
+	transform: translateY(-6px);
+}
+.header.scrolled .logo_container
+{
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+.logo a
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #f4f4f8;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.logo a img
+{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 9px;
+	-webkit-transform: translateY(2px);
+	-moz-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	-o-transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+.logo_container
+	{
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+	}

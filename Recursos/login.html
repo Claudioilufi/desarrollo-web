@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viaja.com</title>
+    <link href="..\css\styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+        
+    <!--cabezera de la pagina-->
+  
+    <header>
+        <img class="logo" src="../Imagen/logo.jpg" class="img-rounded" alt="logo" width="300" height="200"> 
+      </header>
+    
+     <!-- menu de navegacion-->
+      <!-- <nav>
+         Nav tabs
+        <div class="col-sm-12">
+          <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="../index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./formulario.html">Vuelos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="./links.html">Links</a>
+          </li>
+          </ul> 
+        </div>
+      </nav>
+    
+      <!--presentacion pagina-->
+      <div class="jumbotron text-center">
+        <h1>Login</h1>
+      </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="textoVariado">Iniciar Sesión</h2>
+                <form action="./formulario.html">
+                  <div class="form-group">
+                    <label class="email" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label class="passsword" for="pwd">Contraseña:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
+
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                              
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Redirigiendo</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  Estamos validando sus datos y redirigiendo a la pagina, favor espere...
+                                </div>
+                                
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <ul class="pagination pagination-lg justify-content-center">
+        <li class="page-item"><a class="page-link" href="./formulario.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="./formulario.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="./galeria.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="./links.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="./galeria.html">Next</a></li>
+      </ul>
+    </div>
+
+
+        <!--pie de pagina-->
+    <footer>
+        <main class='imagenesTiendas'>
+                  <marquee>
+                      <img src="../Imagen/viajesfalabella.png" alt="Girl in valley" width="480" height="240">
+                      <img src="../Imagen/despegarlogo.png" alt="Girl in farm" width="480" height="240">
+                      <img src="../Imagen/paisaje.jpg" alt="Girl in world" width="360" height="240">
+                  </marquee>
+            </main>
+            <br>
+            <div class="jumbotron text-left">
+              <h2>GRACIAS POR VISITARNOS</h2>
+          
+              <ol class="breadcrumb justify-content-end" >
+                <li class="breadcrumb-item active" aria-current="page">Principal</li>
+                <li class="breadcrumb-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="breadcrumb-item"><a href="./nosotros.html">Nosotros</a></li>
+              </ol>
+
+
+              <p align="right">creado por: Claudio Ilufi</p>
+
+            </div>
+            <br>
+      </footer>
+  </body>
+  </html>

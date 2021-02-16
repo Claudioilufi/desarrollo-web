@@ -1,0 +1,19 @@
+%valorParrafos {
+    font-family: $font-family; 
+    font-size: $font-size;
+    color: $color;
+ }
+ 
+ 
+ %valorTituloH3{
+     font-family: $fuenteH3;
+     font-size: $tamanoFuente;
+     color: $colorH3;
+ }
+ 
+ %margenes{
+     margin-top: $margenSuperior;
+     margin-bottom: $margenInferior;
+     margin-left: $margenIzquierdo;
+     margin-right: $margenDerecho;
+ }

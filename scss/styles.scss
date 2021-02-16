@@ -1,0 +1,273 @@
+$margenSuperior: 100px;
+$margenSuperiorMenor: 50px;
+$margenSuperiorMinimo: 35px;
+
+$colorLinks: black;
+$tamañoFuenteLinks: 25px;
+
+
+$colorTextoFormulario: beige;
+
+
+$margenLista: 28px;
+
+
+
+body{
+	background: rgb(86,241,239);
+	background: radial-gradient(circle, rgba(86,241,239,1) 0%, rgba(96,169,195,1) 35%, rgba(15,121,158,1) 100%);
+}
+
+.logo {
+
+	display: inline-block;
+	align-content: center;
+    opacity: .8;
+    margin-bottom: $margenSuperiorMenor;
+}
+
+
+.videos {
+	margin-left: 50px;
+	margin-bottom: 50px;
+	border:1px solid blue;
+	width:530px;
+	display:inline-block;
+	height:300px;
+    overflow:hidden;
+    
+    #uno {
+        background-color:blue;
+    }
+
+    #dos {
+        background-color:green;
+    }
+
+    #tres {
+        background-color:yellow;
+    }
+
+    #cuatro {
+        background-color:red;
+    }
+}
+
+.imagenesTiendas{
+	margin-top: $margenSuperior;
+	margin-bottom: $margenSuperior;
+	transform: scale( 1, 1);
+}
+
+.logoPublicidad{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+	display: inline-block;
+	animation: roll 3s infinite;
+	transform: rotate(30deg);
+	opacity: .7;
+}
+
+@keyframes roll {
+	0% {
+	  transform: rotate(0);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+.promociones{
+    margin-top: $margenSuperiorMinimo;
+}
+
+.formularioVuelos{
+    color: beige;
+    margin-top: $margenSuperiorMenor;
+}
+
+.seleccionOrigen{
+    margin-top: $margenSuperiorMinimo;
+}
+
+
+.seleccionDestino{
+    margin-top: $margenSuperiorMinimo;
+}
+
+.fechas{
+    margin-top: $margenSuperiorMenor;
+}
+
+.slider-wrapper{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    padding: 0;
+}
+
+.colDerecha{
+    margin-top: $margenSuperior;
+    margin-left: $margenSuperiorMenor;
+}
+
+
+.email{
+    color: $colorTextoFormulario;
+}
+
+.passsword{
+    color: $colorTextoFormulario;
+}
+
+.form-check-label{
+    color: $colorTextoFormulario;
+}
+
+.textoVariado{
+    color: $colorTextoFormulario;
+    text-align: center;
+}
+
+.subtitulo{
+	color: beige;
+	margin-top: $margenSuperiorMenor;
+	margin-bottom: $margenSuperiorMenor;
+}
+
+.nav-link{
+	color: $colorLinks;
+}
+
+
+
+
+.paginas{
+
+    color: $colorLinks;
+    margin-top: $margenSuperiorMinimo;
+    margin-left: 250px;
+    margin-bottom: 250px;
+
+    .paginas_externas{
+
+        padding-top: 150px;
+        padding-bottom: 150px;
+
+    }
+
+    .paginas__lista{
+        display: block;
+        list-style-type:circle;
+        margin-top: 50px;
+        
+    }
+
+    .pagina__externa1{
+        color: $colorLinks;
+        text-align: center;
+        margin-top: $margenLista;
+        font-size: $tamañoFuenteLinks;
+    }
+
+    .pagina__externa2{
+        color: $colorLinks;
+        text-align: center;
+        margin-top: $margenLista;
+        font-size: $tamañoFuenteLinks;
+    }
+    
+    .pagina__externa3{
+        color: $colorLinks;
+        text-align: center;
+        margin-top: $margenLista;
+        font-size: $tamañoFuenteLinks;
+    }
+}
+
+
+.side{
+
+    display: flex;
+    height: 500px;
+
+    .side__publicidad{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+
+    }
+
+    .side__imagen{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+
+
+.contacto-info{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: .9rem;
+
+    .contacto-info__titulo {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .contacto-info__paragrap{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+}
+
+
+.contacto-form__header{
+
+    .contacto-form__title{
+        font-size: 2rem;
+        font-weight: 600;
+
+    }
+
+    .contacto-form__paragraph{
+        line-height: 1.7;
+        opacity: .9;
+    }
+
+    
+    .contacto-info__titulo-2{
+        font-weight: 600;
+    }
+
+    .contacto-info__item{
+        opacity: .9;
+    }
+
+    
+}
+
+.contacto-form__data{
+
+
+
+    .contacto-form__input{
+        color: #0a1f44;
+        font-size: .87rem;
+        padding: .87rem 1.4rem;
+        border-radius: 5px;
+        border: 1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.01);
+        width: 100%;
+        margin-bottom: .87rem;
+        }
+
+}
+

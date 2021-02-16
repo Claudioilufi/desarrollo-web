@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viaja.com</title>
+    <link href=".\css\styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1080, initial-scale=1"> <!-- Tag de Viewport -->
+    <meta name="description" content="Agencia de viajes enfocada a productos turisticos nacionales como internacionales ">
+    <meta name="keywords" content="viajes, cotizacion, territorio nacional, territorio internacional, paquetes">
+    <meta name="author" content="Claudio Ilufi">
+    <meta property="og:locale" content="es_es">
+    <meta property="og:type" content="webside">
+    <meta property="og:title" content="Pagina de viajes">
+    <meta property="og:description" content="Encuentra tu viaje al mejor precio">
+    <meta property="og:url" content="file:///C:/Users/Claudio/Desktop/Sass2-Claudio%20Ilufi/Claudio%20Node/index.html">
+    <meta property="og:image" content="images/logo.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> <!-- CDN de Bootstrap del CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  -->
+</head>
+<body>
+
+    <!--cabezera de la pagina-->
+  
+    <header>
+      <img class="logo" src="./Imagen/logo.jpg" class="img-rounded" alt="logo" width="300" height="200"> 
+    </header>
+  
+    <!--menu de navegacion-->
+    <nav>
+      <!-- Nav tabs -->
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="./index.html">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./Recursos/formulario.html">Vuelos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./Recursos/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./Recursos/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./Recursos/links.html">Links</a>
+          </li>
+        </ul> 
+      </div>
+    </nav>
+
+    <!--presentacion pagina-->
+    <div class="jumbotron text-center">
+      <h1>Bienvenido a tu proximo Viaje</h1>
+    </div>
+
+
+    <!--contenido de la pagina-->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="videos" id="uno">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/R8XyPQBAWSk" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="videos" id="dos">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JwR4Vq2_bqc" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class='videos' id="tres">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eXi1qCnnk4M" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class='videos' id="cuatro">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/emaVNc3chnc" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="logoPublicidad" src="./Imagen/underConstruction.jpg" alt="publicidad" width="300" height="200">
+          </div>
+
+          <div class="col-lg-3">
+            <img class="logoPublicidad" src="./Imagen/publicidad2.png" alt="publicidad" width="300" height="200">
+          </div>
+
+          <div class="col-lg-3">
+            <img class="logoPublicidad" src="./Imagen/publicidad2.png" alt="publicidad" width="300" height="200">
+          </div>
+ 
+
+          <div class="col-lg-3">
+            <img class="logoPublicidad" src="./Imagen/underConstruction.jpg" alt="publicidad" width="300" height="200">
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <ul class="pagination pagination-lg justify-content-center">
+        <li class="page-item disabled"><a class="page-link" href="./index.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Principal!" href="./index.html">1</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Viaje!" href="./Recursos/formulario.html">2</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Login!" href="./Recursos/login.html">3</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Galeria!" href="./Recursos/galeria.html">4</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Links!" href="./Recursos/links.html">5</a></li>
+        <li class="page-item"><a class="page-link" data-toggle="tooltip" title="Siguiente!" href="./Recursos/formulario.html">Next</a></li>
+      </ul>
+    </div>
+
+    <!-- Script para el tooltip-->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+      </script>
+
+
+
+    <!--pie de pagina-->
+    <footer>
+      <main class='imagenesTiendas'>
+				<marquee>
+					<img src="./Imagen/viajesfalabella.png" alt="Girl in valley" width="480" height="240">
+					<img src="./Imagen/despegarlogo.png" alt="Girl in farm" width="480" height="240">
+					<img src="./Imagen/paisaje.jpg" alt="Girl in world" width="360" height="240">
+				</marquee>
+          </main>
+          <br>
+          <div class="jumbotron text-left">
+            <h2>GRACIAS POR VISITARNOS</h2>
+
+            <ol class="breadcrumb justify-content-end" >
+              <li class="breadcrumb-item active" aria-current="page">Principal</li>
+              <li class="breadcrumb-item"><a href="./Recursos/contacto.html">Contacto</a></li>
+              <li class="breadcrumb-item"><a href="./Recursos/nosotros.html">Nosotros</a></li>
+            </ol>
+            
+            <p align="right">Creado por: Claudio Ilufi</p>
+
+          </div>
+          <br>
+    </footer>
+</body>
+</html>

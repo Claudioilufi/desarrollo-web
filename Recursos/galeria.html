@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viaja.com</title>
+    <link href="..\css\styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!--cabezera de la pagina-->
+  
+    <header>
+        
+      <img class="logo" src="../Imagen/logo.jpg" class="img-rounded" alt="logo" width="300" height="200"> 
+    </header>
+  
+    <!--menu de navegacion
+    <nav>
+       Nav tabs 
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="../index.html">Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="./formulario.html">Vuelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="./login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="./galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="./links.html">Link</a>
+              </li>
+        </ul> 
+      </div>
+    </nav> -->
+
+        <!--presentacion pagina-->
+        <div class="jumbotron text-center">
+            <h1>Galeria</h1><span class="badge badge-pill badge-info">Nuevo!</span>
+        </div>
+
+        <!-- presentacion carrucel de imagenes-->
+
+        <h2 class="subtitulo" align="center">Viaja por America</h2>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              Menu <span class="badge badge-pill badge-info">Nuevo!</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./galeria.html">America</a>
+              <a class="dropdown-item" href="./galeria2.html">Europa</a>
+              <a class="dropdown-item" href="./galeria3.html">Asia</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="america">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <!-- carrucel de imagenes 1-->
+
+                    <div id="estadosUnidos" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#estadosUnidos" data-slide-to="0" class="active"></li>
+                          <li data-target="#estadosUnidos" data-slide-to="1"></li>
+                          <li data-target="#estadosUnidos" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../Imagen/galeria-losangeles2.jpg" alt="Los Angeles" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Los Angeles</h3>
+                              <p>Viaja a Los Angeles a conocer la tierra de las estrellas</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-chicago2.jpg" alt="Chicago" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Chicago</h3>
+                              <p>Ve a Chicago y conoce la tierra del rey del Baloncesto</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-nuevayork2.jpg" alt="New York" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>New York</h3>
+                              <p>Disfruta de la ciudad del mundo</p>
+                            </div>   
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#estadosUnidos" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#estadosUnidos" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="brasil" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#brasil" data-slide-to="0" class="active"></li>
+                          <li data-target="#brasil" data-slide-to="1"></li>
+                          <li data-target="#brasil" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../Imagen/galeria-buzios.jpg" alt="Buzios" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Buzios</h3>
+                              <p>Viaja a Los Angeles a conocer la tierra de las estrellas</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-riojaneiro.jpg" alt="RioJaneiro" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Rio de Janeiro</h3>
+                              <p>Ve a Chicago y conoce la tierra del rey del Baloncesto</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-saopaulo.jpg" alt="SaoPaulo" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Sao Paulo</h3>
+                              <p>Disfruta de la ciudad del mundo</p>
+                            </div>   
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#brasil" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#brasil" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <!-- carrucel de imagenes 2-->
+
+                    <div id="chile" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#chile" data-slide-to="0" class="active"></li>
+                          <li data-target="#chile" data-slide-to="1"></li>
+                          <li data-target="#chile" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../Imagen/galeria-arica.jpg" alt="Arica" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Arica</h3>
+                              <p>Visita el Morro de Arica y sus playas</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-santiago.jpg" alt="Santiago" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Santiago</h3>
+                              <p>Ven a la gran capital</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-puertomontt.jpg" alt="Puerto Montt" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Puerto Montt</h3>
+                              <p>Disfruta de un paisaje lleno de naturaleza</p>
+                            </div>   
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#chile" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#chile" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="argentina" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#argentina" data-slide-to="0" class="active"></li>
+                          <li data-target="#argentina" data-slide-to="1"></li>
+                          <li data-target="#argentina" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../Imagen/galeria-buenosaires.jpg" alt="Buenos Aires" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Buenos Aires</h3>
+                              <p>Viaja a Los Angeles a conocer la tierra de las estrellas</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-cordoba.jpg" alt="Cordoba" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Cordoba</h3>
+                              <p>Ve a Chicago y conoce la tierra del rey del Baloncesto</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Imagen/galeria-mendoza.jpg" alt="Mendoza" width="100%" height="100%">
+                            <div class="carousel-caption">
+                              <h3>Mendoza</h3>
+                              <p>Disfruta de la ciudad del mundo</p>
+                            </div>   
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#argentina" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#argentina" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <br>
+
+        <div class="container ">
+            <ul class="pagination pagination-lg justify-content-lg-center">
+              <li class="page-item"><a class="page-link" href="./login.html">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="./formulario.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="./login.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="./galeria.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="./links.html">Next</a></li>
+            </ul>
+          </div>
+
+
+        <!--pie de pagina-->
+    <footer>
+      <main class='imagenesTiendas'>
+				<marquee>
+					<img src="../Imagen/viajesfalabella.png" alt="Girl in valley" width="480" height="240">
+					<img src="../Imagen/despegarlogo.png" alt="Girl in farm" width="480" height="240">
+					<img src="../Imagen/paisaje.jpg" alt="Girl in world" width="360" height="240">
+				</marquee>
+          </main>
+          <br>
+          <div class="jumbotron text-left">
+            <h2>GRACIAS POR VISITARNOS</h2>
+            
+
+            <ol class="breadcrumb justify-content-end" >
+                <li class="breadcrumb-item active" aria-current="page">Principal</li>
+                <li class="breadcrumb-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="breadcrumb-item"><a href="./nosotros.html">Nosotros</a></li>
+              </ol>
+
+            <p align="right">Creado por: Claudio Ilufi</p>
+          </div>
+          <br>
+    </footer>
+
+
+
+
+
+    <!-- Referencias externas -->
+
+</body>
+</html>

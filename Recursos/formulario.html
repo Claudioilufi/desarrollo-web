@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viaja.com</title>
+    <link href="..\css\styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <!--cabezera de la pagina-->
+  
+    <header>
+        <img class="logo" src="../Imagen/logo.jpg" class="img-rounded" alt="logo" width="300" height="200"> 
+      </header>
+    
+      <!--menu de navegacion-->
+     <!-- <nav>
+        Nav tabs 
+        <div class="col-sm-12">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="../index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="./formulario.html">Vuelos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="./links.html">Links</a>
+            </li>
+          </ul> 
+        </div>
+      </nav> -->
+
+    <!--presentacion pagina-->
+    <div class="jumbotron text-center">
+        <h1>Formulario de viaje</h1>
+    </div>
+
+    <h3 class="textoVariado">Pasajes en avion con reserva Flexible</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+
+            <form class="formularioVuelos" action="./login.html">
+
+                <!--seleccion tipo vuelo-->
+        
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="seleccionTipoViaje" value="customEx">
+                    <label class="custom-control-label" for="customRadio">Ida y Vuelta</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="customRadio2" name="seleccionTipoViaje" value="customEx">
+                    <label class="custom-control-label" for="customRadio2">Solo Ida</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="customRadio3" name="seleccionTipoViaje" value="customEx">
+                    <label class="custom-control-label" for="customRadio3">Solo Vuelta</label>
+                </div>
+        
+                <!--ingreso de origen y destino-->
+        
+                <br>
+                <div class="seleccionOrigen">
+                    <label>Origen</label></a>
+                    <select name="origen" class="custom-select mb-1" required>
+                        <option selected>Santiago de Chile, Chile</option>
+                        <option value="ari">Arica, Arica y Parinacota, Chile</option>
+                        <option value="iqq">Iquique, Tarapaca, Chile</option>
+                        <option value="anf">Antofagasta, Chile</option>
+                        <option value="lsc">La Serena, Coquimbo, Chile</option>
+                        <option value="ipc">Isla de Pascua, Chile</option>
+                        <option value="zos">Osorno, Los Lagos Chile</option>
+                        <option value="puq">Punta Arenas, Magallanes, Chile</option>
+                    </select>
+
+                </div>
+        
+                <div class="seleccionDestino">
+                    <label>Destino</label>
+                    <select name="origen" class="custom-select mb-1" required>
+                        <option selected>Seleccion destino</option>
+                        <option value="scl">Santiago de Chile, Chile</option>
+                        <option value="ari">Arica, Arica y Parinacota, Chile</option>
+                        <option value="iqq">Iquique, Tarapaca, Chile</option>
+                        <option value="anf">Antofagasta, Chile</option>
+                        <option value="lsc">La Serena, Coquimbo, Chile</option>
+                        <option value="ipc">Isla de Pascua, Chile</option>
+                        <option value="zos">Osorno, Los Lagos Chile</option>
+                        <option value="puq">Punta Arenas, Magallanes, Chile</option>
+                    </select>
+                </div>
+        
+                <div class="fechas">
+                    <labe>Fecha de viaje</label>
+                    <br>
+                    <br>
+                    <label>Fecha de Ida: <input type="date" name="fechaIda" id="fechaIda" required> </label>
+                    <label>Fecha Vuelta: <input type="date" name="fechaVuelta" id="fechaVuelta" required> </label>
+                </div>
+                <br>
+                <br>
+                <label>Cantidad de pasajeros Adultos</label>
+                <select name="cantPasajerosAdultos" class="form-control" required>
+                    <option selected>1</option>
+                    <option value="dos">2</option>
+                    <option value="tres">3</option>
+                    <option value="cuatro">4</option>
+                    <option value="cinco">5</option>
+                    <option value="seis">6</option>
+                    <option value="siete">7</option>
+                    <option value="ocho">8</option>
+                </select>
+                <br>
+                <br>
+
+                <button type="submit" class="btn btn-success" onclick="javascript:alert('Redirigiendo a Login')">Buscar</button>
+
+               
+
+              </form>
+
+            </div>
+
+            <div class="colDerecha">
+                <div class="col-sm-6">
+                    <img class="promociones" src="../Imagen/sinInteresCMR.png" alt="publicidad" width="300" height="150">
+                </div>
+                <div class="col-sm-6">
+                    <img class="promociones" src="../Imagen/lgoosMasterVisa.png" alt="publicidad" width="300" height="150">
+                </div>
+                <div class="col-sm-6">
+                    <img class="promociones" src="../Imagen/otrosMediosPago.png" alt="publicidad" width="300" height="150">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+        
+
+    <div class="container">
+        <ul class="pagination pagination-lg justify-content-center">
+          <li class="page-item"><a class="page-link" href="../index.html">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="./formulario.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./login.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./galeria.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="./links.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="./login.html">Next</a></li>
+        </ul>
+      </div>
+
+        <!--pie de pagina-->
+    <footer>
+      <main class='imagenesTiendas'>
+				<marquee>
+					<img src="../Imagen/viajesfalabella.png" alt="Girl in valley" width="480" height="240">
+					<img src="../Imagen/despegarlogo.png" alt="Girl in farm" width="480" height="240">
+					<img src="../Imagen/paisaje.jpg" alt="Girl in world" width="360" height="240">
+				</marquee>
+          </main>
+          <br>
+          <div class="jumbotron text-left">
+            <h2>GRACIAS POR VISITARNOS</h2>
+            
+            <ol class="breadcrumb justify-content-end" >
+                <li class="breadcrumb-item active" aria-current="page">Principal</li>
+                <li class="breadcrumb-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="breadcrumb-item"><a href="./nosotros.html">Nosotros</a></li>
+              </ol>
+
+
+          <p align="right">creado por: Claudio Ilufi</p>
+          </div>
+          <br>
+    </footer>
+</body>
+</html>
